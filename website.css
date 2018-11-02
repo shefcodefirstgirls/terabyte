@@ -1,0 +1,20 @@
+h1 {
+text-align: center;
+margin: 0 auto;
+padding: 150px 0 0 0;
+font-size: 85px;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 120px 0 0 50px;
+  font-size: 35px;
+
+}
+
+
+th {
+  text-align: center;
+  padding: 0 50px 50px 0;
+}
