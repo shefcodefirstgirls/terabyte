@@ -1,62 +1,201 @@
 <DOCTYPE! html>
 <html>
- <!--testing-->
 
 <head>
   <title>Dessert</title>
 
-  <link rel="stylesheet" type="text/css" href="dessert.css">
+  <link rel="stylesheet" type="text/css" href="desserts.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-<link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
-
-<link href="https://fonts.googleapis.com/css?family=Dekko" rel="stylesheet">
 </head>
 
 
 
 <style>
+body {
+  background-color: #b23939;
+
+}
+.foodgroup {
+  background-image:url(https://static1.squarespace.com/static/5aac12539d5abb5e3438b8ab/t/5b67c77088251b17547be891/1533527990027/food-vegetables-meal-breakfast_FADED+TWO.png);
+  padding: 100px 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size: 75px;
+  color: #ff9681;
+}
+
+
+
+div {
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin:0 auto;
+  position: relative;
+  margin: 40px 0 0 250px;
+  border-radius: 12px;
+  max-width: 900px;
+
+}
+
+
+.recipe1 {
+  background: url("https://img.taste.com.au/ZlmCeL6M/w720-h480-cfill-q80/taste/2016/11/deep-fried-ice-cream-55219-1.jpeg"); <!-- url of recipe image here -->
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.recipe2 {
+  background: url("https://media-cdn.tripadvisor.com/media/photo-s/10/3b/c3/48/mango-bingsu.jpg"); <!-- url of recipe image here -->
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.recipe3 {
+  background: url("http://cdn.sheknows.com/articles/2013/01/Mike/chefmom/971631/fudge-mocha-brownie.jpg"); <!-- url of recipe image here -->
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recipe4 {
+  background: url("https://www.nutmegnanny.com/wp-content/uploads/2017/03/peanut-butter-nutella-rice-krispie-treats-2.jpg"); <!-- url of recipe image here -->
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+p {
+  color:  #000000;
+  background: #8f8d8e;
+  background:-webkit-linear-gradient(bottom,rgba(143,141,142,1), rgba(143,141,142,.4));
+  background:-moz-linear-gradient(bottom,rgba(143,141,142,1), rgba(143,141,142,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 20px;
+  color:#430082;
+
+}
+
+
+.price {
+  float: right;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #430082;
+    opacity: 0.8;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0
+
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #38174f !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
 </style>
 
 
 <body>
-<h2 class="logo"><a href="default.asp">Foodget It</a></h2>
 
+  <h1 id="front1"><b>Foodget It</b></h1>
 <h1 class="foodgroup">Dessert </h1>
 
-
-<ul>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="starter.asp">Starter</a></li>
-  <li><a href="main.asp">Main</a></li>
-  <li><a href="dessert.asp">Dessert</a></li>
-  <li><a href="snack.asp">Snack</a></li>
-</ul>
 
 
 <div class="recipe1">
 
-<p><!--name of recipe 1--> Fried Ice-cream <span class="price">£...... </span><br />
-<small> <br>Ingredients: 1 scoop Ice cream, 2 slices of bread, Icing Sugar for topping</br>  <!--brief description of recipe-->
-<br>1)Put 1 scoop of ice-cream between 2 slices of bread 2)</br>
+<p> Fried Ice-cream <span class="price">£4.20 </span>
+<small> <br>The delicious ice-cream that covered with crispy bread. Ingredients: 1 scoop Ice cream, 2 slices of bread, icing Sugar for topping</br>  <!--brief description of recipe-->
+<a href="https://www.instagram.com/p/BoauJJbnpBA/">Watch the video here</a></br>
 </small> </p>
 </div>
 
 <div class="recipe2">
 
-<p><!--name of recipe 2--> Mango Bingsu <span class="price">£65 </span> <br />
-<small> 500ml fresh milk, 1 mango, 1 scoop vanilla ice cream, 2 tbsp condensed milk<!--brief description of recipe--> </small></p>
+<p> Mango Bingsu <span class="price">£3.50 </span> <br />
+<small> A generous dessert that served with mangoes slathered on the ice-milk with the combination of condensed milk and vanilla ice-cream. 500ml fresh milk, 1 mango, 1 scoop vanilla ice cream, 2 tbsp condensed milk <br><!--brief description of recipe--> <a href="https://www.instagram.com/p/BjOxRU2F-dj/">Click here to watch the video</a></small></p>
+
 </div>
 
 <div class="recipe3">
 
-<p> <!--name of recipe 3--> anything<span class="price">4555 </span> <br />
-<small>abcdefghijklmnopqrstuvwxyz.abcdefghijklmnopqrstuvwxyz.abcdefghijklmnopqrstuvwxyz.
-  abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz.<!--brief description of recipe--> </small></p>
+<p>  Mocha Brownies <span class="price"> £6.50 </span> <br />
+<small> 1 box Ghirardelli Double Choc Vrownies Mix, 1/4 cup water, 2 teaspoons insttant espresso granules, 1/3 vege oil, 1 egg, 1 teaspoon pure vanilla extract, 1/4 cup choc overed espresso, 9 Ghirardelli Mocha Sqares<br>
+  <a href="https://www.mybakingaddiction.com/easy-mocha-brownies/print/">Get recipe here</a><!--brief description of recipe--> </small></p>
 </div>
 
+<div class="recipe4">
 
+<p>  Nutella Peanut Butter Rice Crispy Treats <span class="price"> £4.00 </span> <br />
+<small> These smell like peanut butter cups and when you bite in there’s extra chocolate and Nutella goodness. Just a few ingredients, no baking, super easy!<br>
+  <a href="https://www.handletheheat.com/nutella-peanut-butter-rice-crispy-treats/#simplerecipe">Get recipe here</a><!--brief description of recipe--> </small></p>
+</div>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="logo">
+      <a class="navbar-brand" img="https://farm5.staticflickr.com/4884/45121653875_4bea080aea_m.jpg"></a>
+
+    </div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#frontpage.html">ABOUT</a></li>
+        <li><a href="#starter.html">STARTER</a></li>
+        <li><a href="#main.html">MAIN</a></li>
+        <li><a href="#dessert.html">DESSERT</a></li>
+        <li><a href="#Snack.html">SNACK</a></li>
+        <li><a href="#frontpage.html">SOCIALS</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<script>
 
 </body>
 
