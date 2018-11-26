@@ -1,78 +1,81 @@
 
 
 body {
-      font-family: 'Patrick Hand SC', cursive;
-      font-size: 25px;
-      margin: 0 auto;
-      background-image: linear-gradient(#d3dfed,#a183a0);
-      max-width: auto;
-  }
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 25px;
+  margin: 0 auto;
+background-color: #aba9aa;
+}
 
 .logo a {
   text-align: left;
-  border: double;
-  margin: 10px 20px 20px 20px;
-  padding: 10px ;
-  color: black;
+  color: black; <!-- needs changing-->
+
 
 }
+
 
 .foodgroup {
   text-align: center;
   font-size: 75px;
-  -webkit-text-fill-color: #ff9681;
-  -webkit-text-stroke-color: black;
-  -webkit-text-stroke-width: 2px;
+  color: #ff9681;
 
 }
-
 
 div {
-      height: 500px;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      position: relative;
-      margin: 40px 30px 0 250px;
-      border-radius: 12px;
-      max-width: inherit;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin:0 auto;
+  position: relative;
+  margin: 40px 0 0 300px;
+  border-radius: 12px;
+  max-width: 900px;
 
 }
 
-p {
-      max-width: auto;
-      -webkit-text-fill-color: #ff9681;
-      -webkit-text-stroke-color: #81eaff;
-      -webkit-text-stroke-width: 0.25px;
-      background: #8f8d8e;
-      background:-webkit-linear-gradient(bottom,rgba(143,141,142,1), rgba(143,141,142,.4));
-      background:-moz-linear-gradient(bottom,rgba(143,141,142,1), rgba(143,141,142,.4));
-      background-size: cover;
-      padding: 10px;
-      line-height: 28px;
-      text-align: justify;
-      position: absolute;
-      bottom: 0;
-      margin: 0;
-      font-family: 'KoHo', sans-serif;
-      font-size: 25px;
-
-}
 
 .recipe1 {
-  background-image: url("https://c1.staticflickr.com/5/4887/45909619432_7deed7844c_z.jpg")
+  background-image: url("https://www.errenskitchen.com/wp-content/uploads/2015/07/ribs-1-of-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-  }
+}
+
 
 
 .recipe2 {
-  background-image: url("https://c1.staticflickr.com/5/4804/45065800945_3677ddc5f9_z.jpg");
+  background: url("https://lh3.googleusercontent.com/-7UYRtufnfRk/VBFAn-eywOI/AAAAAAAEuXs/8WfcdFNCNf4/s800/crunchy-parmesan-chicken-bites-8.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
 
 .recipe3 {
-  background-image: url("https://c1.staticflickr.com/5/4844/45066019995_aa30831536_z.jpg");
+  background: url("https://images.media-allrecipes.com/userphotos/560x315/3532479.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+p {
+  color:  #ff9681;
+  background: #8f8d8e;
+  background:-webkit-linear-gradient(bottom,rgba(143,141,142,1), rgba(143,141,142,.4));
+  background:-moz-linear-gradient(bottom,rgba(143,141,142,1), rgba(143,141,142,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  font-family: 'KoHo', sans-serif;
+  font-size: 20px;
 
 }
 
@@ -81,39 +84,11 @@ p {
   float: right;
 }
 
-
-
-ul {
-        list-style-type: none;
-        margin: 0 0 0 20px;
-        padding: 0;
-        width: 200px;
-        background-color:#9cb7b3 ;
-        height: auto;
-        position: fixed;
-        overflow: auto;
-        border-radius: 10px;
-        font-size: 30px;
-
-    }
-
-
-li a {
-        display: block;
-        -webkit-text-fill-color: white;
-        -webkit-text-stroke-color:#8B4513;
-        -webkit-text-stroke-width: 0.5px;
-        padding: 8px 8px;
-        text-decoration: none;
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
         text-align: center;
-
+        margin: 25px 0;
     }
-
-
-li a:hover {
-        background-color: #c8c8c8;
-        color: white;
-      
 .navbar {
     margin-bottom: 0;
     background-color: #430082;
@@ -140,4 +115,3 @@ li a:hover {
     border-color: transparent;
     color: #fff !important;
 }
-
