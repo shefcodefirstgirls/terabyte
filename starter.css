@@ -12,7 +12,7 @@ background-color: #aba9aa;
 
 }
 
-/*testing*/
+
 .foodgroup {
   text-align: center;
   font-size: 75px;
@@ -35,17 +35,29 @@ div {
 
 
 .recipe1 {
-  background: url("https://farm2.staticflickr.com/1940/45277336651_2213c5a65a_z.jpg"); <!-- url of recipe image here -->
+  background-image: url("https://www.errenskitchen.com/wp-content/uploads/2015/07/ribs-1-of-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 
+
 .recipe2 {
-  background: url("https://farm2.staticflickr.com/1940/45277336651_2213c5a65a_z.jpg"); <!-- url of recipe image here -->
+  background: url("https://lh3.googleusercontent.com/-7UYRtufnfRk/VBFAn-eywOI/AAAAAAAEuXs/8WfcdFNCNf4/s800/crunchy-parmesan-chicken-bites-8.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 
 .recipe3 {
-  background: url("https://farm2.staticflickr.com/1940/45277336651_2213c5a65a_z.jpg"); <!-- url of recipe image here -->
+  background: url("https://images.media-allrecipes.com/userphotos/560x315/3532479.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -70,32 +82,34 @@ p {
   float: right;
 }
 
-
-ul {
-    list-style-type: none;
-    margin: 0 0 0 0;
-    padding: 0;
-    width: 200px;
-    background-color: #d9d1cf; <!-- needs changing-->
-    height: 100%;
-    position: fixed;
-    overflow: auto;
-    border-radius: 10px;
-    font-size: 30px;
-
-}
-
-
-li a {
-    display: block;
-    color: #ff9681; <!-- needs changing-->
-    padding: 8px 16px;
-    text-decoration: none;
-    text-align: center;
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+.navbar {
+    margin-bottom: 0;
+    background-color: #430082;
+    opacity: 0.8;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0
 
 }
 
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
 
-li a:hover {
-    background-color: #c8c8c8;
-    color: white;
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #38174f !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
