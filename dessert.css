@@ -1,24 +1,20 @@
 body {
-  font-family: 'Patrick Hand SC', cursive;
-  font-size: 25px;
-  margin: 0 auto;
-background-color: #aba9aa;
-}
-
-.logo a {
-  text-align: left;
-  color: black; <!-- needs changing-->
-
+  background-color: #b23939;
 
 }
-/*testing*/
-
 .foodgroup {
+  background-image:url(https://static1.squarespace.com/static/5aac12539d5abb5e3438b8ab/t/5b67c77088251b17547be891/1533527990027/food-vegetables-meal-breakfast_FADED+TWO.png);
+  padding: 100px 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Playfair Display', serif;
   text-align: center;
   font-size: 75px;
   color: #ff9681;
-
 }
+
+
 
 div {
   height: 400px;
@@ -27,7 +23,7 @@ div {
   background-position: center;
   margin:0 auto;
   position: relative;
-  margin: 40px 0 0 300px;
+  margin: 40px 0 0 250px;
   border-radius: 12px;
   max-width: 900px;
 
@@ -36,21 +32,37 @@ div {
 
 .recipe1 {
   background: url("https://img.taste.com.au/ZlmCeL6M/w720-h480-cfill-q80/taste/2016/11/deep-fried-ice-cream-55219-1.jpeg"); <!-- url of recipe image here -->
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 
 .recipe2 {
   background: url("https://media-cdn.tripadvisor.com/media/photo-s/10/3b/c3/48/mango-bingsu.jpg"); <!-- url of recipe image here -->
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 
 .recipe3 {
-  background: url("https://farm2.staticflickr.com/1940/45277336651_2213c5a65a_z.jpg"); <!-- url of recipe image here -->
+  background: url("http://cdn.sheknows.com/articles/2013/01/Mike/chefmom/971631/fudge-mocha-brownie.jpg"); <!-- url of recipe image here -->
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recipe4 {
+  background: url("https://www.nutmegnanny.com/wp-content/uploads/2017/03/peanut-butter-nutella-rice-krispie-treats-2.jpg"); <!-- url of recipe image here -->
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
 p {
-  color:  #ff9681;
+  color:  #000000;
   background: #8f8d8e;
   background:-webkit-linear-gradient(bottom,rgba(143,141,142,1), rgba(143,141,142,.4));
   background:-moz-linear-gradient(bottom,rgba(143,141,142,1), rgba(143,141,142,.4));
@@ -60,8 +72,9 @@ p {
   position: absolute;
   bottom: 0;
   margin: 0;
-  font-family: 'KoHo', sans-serif;
+  font-family: 'Aref Ruqaa', serif;
   font-size: 20px;
+  color:#430082;
 
 }
 
@@ -70,32 +83,29 @@ p {
   float: right;
 }
 
-
-ul {
-    list-style-type: none;
-    margin: 0 0 0 0;
-    padding: 0;
-    width: 200px;
-    background-color: #d9d1cf; <!-- needs changing-->
-    height: 100%;
-    position: fixed;
-    overflow: auto;
-    border-radius: 10px;
-    font-size: 30px;
+.navbar {
+    margin-bottom: 0;
+    background-color: #430082;
+    opacity: 0.8;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0
 
 }
 
-
-li a {
-    display: block;
-    color: #ff9681; <!-- needs changing-->
-    padding: 8px 16px;
-    text-decoration: none;
-    text-align: center;
-
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
 }
 
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #38174f !important;
+    background-color: #fff !important;
+}
 
-li a:hover {
-    background-color: #c8c8c8;
-    color: white;
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
