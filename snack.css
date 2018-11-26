@@ -1,91 +1,76 @@
-<DOCTYPE! html>
-<html>
-
-
-<head>
-
-  <title>Snack</title>
-
-  <link rel="stylesheet" type="text/css" href="snack.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
-</head>
-
-<style>
-
 body {
-  background-color: #b23939;
+      font-family: 'Patrick Hand SC', cursive;
+      font-size: 25px;
+      margin: 0 auto;
+      background-image: linear-gradient(#d3dfed,#a183a0);
+      max-width: auto;
+  }
+
+.logo a {
+  text-align: left;
+  border: double;
+  margin: 10px 20px 20px 20px;
+  padding: 10px ;
+  color: black;
 
 }
+
 .foodgroup {
-  background-image:url(https://static1.squarespace.com/static/5aac12539d5abb5e3438b8ab/t/5b67c77088251b17547be891/1533527990027/food-vegetables-meal-breakfast_FADED+TWO.png);
-  padding: 100px 25px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: 'Playfair Display', serif;
   text-align: center;
   font-size: 75px;
-  color: #ff9681;
-}
+  -webkit-text-fill-color: #ff9681;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
 
+}
 
 
 div {
-  height: 400px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin:0 auto;
-  position: relative;
-  margin: 40px 0 0 250px;
-  border-radius: 12px;
-  max-width: 900px;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      margin: 40px 30px 0 250px;
+      border-radius: 12px;
+      max-width: inherit;
 
 }
 
+p {
+      max-width: auto;
+      -webkit-text-fill-color: #ff9681;
+      -webkit-text-stroke-color: #81eaff;
+      -webkit-text-stroke-width: 0.25px;
+      background: #8f8d8e;
+      background:-webkit-linear-gradient(bottom,rgba(143,141,142,1), rgba(143,141,142,.4));
+      background:-moz-linear-gradient(bottom,rgba(143,141,142,1), rgba(143,141,142,.4));
+      background-size: cover;
+      padding: 10px;
+      line-height: 28px;
+      text-align: justify;
+      position: absolute;
+      bottom: 0;
+      margin: 0;
+      font-family: 'KoHo', sans-serif;
+      font-size: 25px;
+
+}
 
 .recipe1 {
-  background: url("https://farm2.staticflickr.com/1940/45277336651_2213c5a65a_z.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;}
+  background-image: url("https://c1.staticflickr.com/5/4887/45909619432_7deed7844c_z.jpg")
+
+  }
 
 
 .recipe2 {
-  background: url("https://farm2.staticflickr.com/1940/45277336651_2213c5a65a_z.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-image: url("https://c1.staticflickr.com/5/4804/45065800945_3677ddc5f9_z.jpg");
+
 }
+
 
 .recipe3 {
-  background: url("https://farm2.staticflickr.com/1940/45277336651_2213c5a65a_z.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-
-p {
-  color:  #ff9681;
-  background: #8f8d8e;
-  background:-webkit-linear-gradient(bottom,rgba(143,141,142,1), rgba(143,141,142,.4));
-  background:-moz-linear-gradient(bottom,rgba(143,141,142,1), rgba(143,141,142,.4));
-  padding: 10px;
-  line-height: 28px;
-  text-align: justify;
-  position: absolute;
-  bottom: 0;
-  margin: 0;
-  font-family: 'KoHo', sans-serif;
-  font-size: 20px;
+  background-image: url("https://c1.staticflickr.com/5/4844/45066019995_aa30831536_z.jpg");
 
 }
 
@@ -94,32 +79,35 @@ p {
   float: right;
 }
 
-.navbar {
-    margin-bottom: 0;
-    background-color: #430082;
-    opacity: 0.8;
-    z-index: 9999;
-    border: 0;
-    font-size: 12px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0
-
-}
-
-.navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
-}
-
-.navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #38174f !important;
-    background-color: #fff !important;
-}
-
-.navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
-}
 
 
-</style>
+ul {
+        list-style-type: none;
+        margin: 0 0 0 20px;
+        padding: 0;
+        width: 200px;
+        background-color:#9cb7b3 ;
+        height: auto;
+        position: fixed;
+        overflow: auto;
+        border-radius: 10px;
+        font-size: 30px;
+
+    }
+
+
+li a {
+        display: block;
+        -webkit-text-fill-color: white;
+        -webkit-text-stroke-color:#8B4513;
+        -webkit-text-stroke-width: 0.5px;
+        padding: 8px 8px;
+        text-decoration: none;
+        text-align: center;
+
+    }
+
+
+li a:hover {
+        background-color: #c8c8c8;
+        color: white;
